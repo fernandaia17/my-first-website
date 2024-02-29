@@ -1,0 +1,96 @@
+/*CHECK COLOR CONTRAST*/
+body{
+    background-color:#5A365B;
+}
+
+h1{
+    color:#341936;
+   background-color: rgba(232, 228, 226, 0.23);
+}
+h3{
+    color:hsl(170, 8%, 73%);
+}
+
+#book{
+    width:350px
+}
+
+.question{
+    background-color:rgb(102, 147, 131);
+    width: 300px; 
+    height: 100px; 
+    border: 5px solid rgb(190, 193, 195); 
+    border-style: ridge; 
+    padding: 5px;
+    margin-top: 20px;  
+    text-align: center; 
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+    font-size: 20px; 
+
+
+}
+
+.lovetext{
+    color:aquamarine;
+    font-weight: bold;
+}
+
+a:hover { 
+    background-color: beige; 
+    color: lightblue; 
+}
+
+.navbar a:hover{
+    background-color: plum
+}
+
+.flex-container{
+    background-color:white; 
+    width: 50%;
+    margin: 0 auto;  
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: center;
+    /* height: 300px; */
+    /* to temorarily hide a line of code, make it a comment! press the command button and / at the same time to easily do this  */
+    align-items: center; 
+}
+
+.flex-item1 {
+background-color: rgb(160, 180, 162);
+margin: 10px; 
+align-self: flex-start; 
+}
+
+.flex-item2 {
+    background-color:rgb(199, 210, 207);
+    margin: 10px;
+}
+
+.flex-item3 {
+    background-color:rgb(197, 177, 177);
+    margin: 10px; 
+    align-self: flex-end;
+}
+
+.grid-container {
+    background-color:white; 
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: 1fr,2fr; 
+    padding: 5px;
+    gap: 10px;
+    width: 50%; 
+    margin: 0 auto; 
+}
+.grid-item1{
+    background-color:lightblue;
+}
+.grid-item2{
+    background-color:rgb(144, 166, 174);
+}
+.grid-item3{
+    background-color:rgb(30, 52, 59);
+    grid-column: 1/-1;
+}
